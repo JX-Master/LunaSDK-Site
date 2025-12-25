@@ -1,18 +1,21 @@
-# Luna SDK Docs
+# Luna SDK Site
 
-This repository hosts source files for Luna SDK Documents. We separate this from the [main project](https://github.com/JX-Master/LunaSDK) to keep the main project small and fast to clone. For a compiled version of the Luna SDK Documents, see [Luna SDK Docs](https://www.lunasdk.net).
+This repository hosts source files for [Luna SDK Official Site](https://www.lunasdk.net).
 
 ## Building
 1. Install python.
-1. Install mkdocs and markdown math extensions:
+1. Install mkdocs:
     ```shell
-    pip install mkdocs python-markdown-math
+    pip install mkdocs
     ```
 1. Build site.
     ```shell
     mkdocs build
     ```
-
+1. Deploy to GitHub pages
+    ```shell
+    mkdocs gh-deploy
+    ```
 ## License
 
-The Luna SDK Docs repository is a part of Luna SDK project, and is licensed under zlib/libpng license, see [LICENSE.txt](./LICENSE.txt) for more information.
+The Luna SDK Site repository is a part of Luna SDK project, and is licensed under zlib/libpng license, see [LICENSE.txt](./LICENSE.txt) for more information.
